@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bar_bg_color">#727272</color>
+    <color name="o2oman">#fe9a35</color>
+    <color name="bar_text_color">#ffffff</color>
+    <color name="bottom_select_text">#fe9a35</color>
+    <color name="bottom_background_bar">#F6F9FE</color>
+    <color name="bottom_normal_text">#4e4e4f</color>
+</resources>

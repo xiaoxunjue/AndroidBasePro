@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.personal.revenant.revenant.base.BottomBarActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="8dp"></android.support.v4.view.ViewPager>
+
+    <com.yinglan.alphatabs.AlphaTabsIndicator
+        android:id="@+id/alphaIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bottom_background_bar"
+        android:orientation="horizontal">
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            app:tabIconNormal="@mipmap/shouye"
+            app:tabIconSelected="@mipmap/shouyexuanzhong"
+            app:tabText="首页"
+            app:tabTextSize="10sp"
+            app:textColorNormal="@color/bottom_normal_text"
+            app:textColorSelected="@color/bottom_select_text" />
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            app:tabIconNormal="@mipmap/dingdan"
+            app:tabIconSelected="@mipmap/dingdanxuanzhong"
+            app:tabText="订单"
+            app:tabTextSize="10sp"
+            app:textColorNormal="@color/bottom_normal_text"
+            app:textColorSelected="@color/bottom_select_text" />
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            app:tabIconNormal="@mipmap/faxian"
+            app:tabIconSelected="@mipmap/faxianxuanzhong"
+            app:tabText="发现"
+            app:tabTextSize="10sp"
+            app:textColorNormal="@color/bottom_normal_text"
+            app:textColorSelected="@color/bottom_select_text" />
+
+        <com.yinglan.alphatabs.AlphaTabView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="4dp"
+            app:tabIconNormal="@mipmap/wode"
+            app:tabIconSelected="@mipmap/wodexuanzhong"
+            app:tabText="我的"
+            app:tabTextSize="10sp"
+            app:textColorNormal="@color/bottom_normal_text"
+            app:textColorSelected="@color/bottom_select_text" />
+    </com.yinglan.alphatabs.AlphaTabsIndicator>
+</LinearLayout>
