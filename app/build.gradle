@@ -58,4 +58,15 @@ dependencies {
 
     compile 'com.lzy.net:okgo:3.0.4'
     compile 'com.google.code.gson:gson:2.8.5'
+
+    compile 'com.umeng.sdk:share-core:latest.integration'
+    compile 'com.umeng.sdk:share-wechat:latest.integration'
+    compile 'com.umeng.sdk:common:1.5.1'
+    compile 'com.umeng.sdk:debug:1.0.0'
+
+    compile 'com.amap.api:location:latest.integration'
+/*图片压缩
+*  newFile = CompressHelper.getDefault(getApplicationContext()).compressToFile(oldFile);
+* */
+    implementation 'com.github.nanchen2251:CompressHelper:1.0.5'
 }
